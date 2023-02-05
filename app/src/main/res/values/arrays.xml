@@ -1,0 +1,33 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="department_list">
+        <item>Information Technology</item>
+        <item>Computer Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Electronics and Communication</item>
+        <item>Civil Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>MBA</item>
+    </string-array>
+
+    <string-array name="department_values">
+        <item>it</item>
+        <item>ce</item>
+        <item>ee</item>
+        <item>ec</item>
+        <item>cl</item>
+        <item>me</item>
+        <item>mba</item>
+    </string-array>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+</resources>

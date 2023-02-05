@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_gtugrades">
+
+    <fragment
+        android:id="@+id/nav_mails"
+        android:name="com.example.newapp.ui.mails.mails"
+        android:label="Mails"
+        tools:layout="@layout/fragment_mails" />
+
+    <fragment
+        android:id="@+id/nav_gtugrades"
+        android:name="com.example.newapp.ui.gtugrade.gtugrade"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gtugrade" />
+
+    <fragment
+        android:id="@+id/nav_gtu100points"
+        android:name="com.example.newapp.ui.gtu100points.gtu100points"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_gtu100points" />
+
+    <fragment
+        android:id="@+id/nav_deptsite"
+        android:name="com.example.newapp.ui.deptsite.deptsite"
+        android:label="Site"
+        tools:layout="@layout/fragment_deptsite" >
+        <action
+            android:id="@+id/action_nav_deptsite_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_degtu"
+        android:name="com.example.newapp.ui.degtu.degtu"
+        android:label="DE GTU"
+        tools:layout="@layout/fragment_degtu" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.newapp.SettingsFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_settingsFragment_to_nav_deptsite"
+            app:destination="@id/nav_deptsite" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_certificate"
+        android:name="com.example.newapp.CertificateRecord"
+        android:label="Certificate Records"
+        tools:layout="@layout/fragment_certificate_record" />
+
+
+
+</navigation>

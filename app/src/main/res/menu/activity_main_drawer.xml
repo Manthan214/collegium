@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gtugrades"
+            android:icon="@drawable/arrow"
+            android:title="GTU Grade" />
+        <item
+            android:id="@+id/nav_mails"
+            android:icon="@drawable/arrow"
+            android:title="Mails" />
+        <item
+            android:id="@+id/nav_gtu100points"
+            android:icon="@drawable/arrow"
+            android:title="GTU 100Points" />
+        <item
+            android:id="@+id/nav_deptsite"
+            android:icon="@drawable/arrow"
+            android:title="Dept.Site" />
+
+        <item
+            android:id="@+id/nav_degtu"
+            android:icon="@drawable/arrow"
+            android:title="DE GTU" />
+
+        <item
+            android:id="@+id/nav_certificate"
+            android:icon="@drawable/arrow"
+            android:title="Certificate Record" />
+    </group>
+</menu>
